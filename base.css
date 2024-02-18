@@ -2,7 +2,7 @@ html, body {
     margin: 0;
 }
 body {
-    background-color: #f1f1f1;
+    background-color: rgb(200, 241, 241);
     display: flex;
     justify-content: center;
 }
@@ -22,10 +22,8 @@ body {
 }
 .menu {
     width: 15%;
-    background-color: aqua;
+    background-color: rgb(175, 236, 209);
     padding: 10px 20px 0px;
-    height: 50%;
-    background-color: #74e6ee; /* cor azul */
 }
 .header {
     background-color: rgb(200, 241, 241);
@@ -50,4 +48,26 @@ body {
 
 .fontsize{
     font-size: 15px;
+}
+
+.fontindex{
+    font-size: 30px;
+}
+
+.contenttwo{
+    background-color: rgb(97, 219, 162);
+    min-height: 220px;
+    padding: 20px;
+    font-size: 25px;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    color: rgb(4, 54, 38);
+}
+
+.contentsobre{
+    background-color: rgb(97, 219, 162);
+    min-height: 400px;
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    color: rgb(4, 54, 38);
 }
